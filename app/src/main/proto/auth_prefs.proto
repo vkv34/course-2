@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.example.course2.protobuf.model";
+option java_multiple_files = true;
+
+message AuthState{
+  bool isAuth = 1;
+  string token = 2;
+  string role = 3;
+
+}
